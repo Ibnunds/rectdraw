@@ -2,7 +2,7 @@ import { Button } from "@material-tailwind/react";
 import Typewriter from "typewriter-effect";
 import { useNavigate } from "react-router-dom";
 import { LandingBg } from "../components/LandingBg";
-import Footer from "../components/footer";
+import { Footer } from "../components/Footer";
 
 export const Landing = () => {
   const navigate = useNavigate();
