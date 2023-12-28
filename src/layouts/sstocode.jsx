@@ -32,7 +32,7 @@ export const SStoCode = () => {
     });
 
     try {
-      const resp = await fetch("http://147.139.206.102/ask", {
+      const resp = await fetch("https://drawcode.fun/ask", {
         method: "POST",
         body: body,
         headers: {
@@ -68,7 +68,7 @@ export const SStoCode = () => {
       image: image,
     };
     try {
-      const res = await fetch("http://147.139.206.102/uploadImage", {
+      const res = await fetch("https://drawcode.fun/uploadImage", {
         method: "POST",
         body: JSON.stringify(body),
         headers: {
