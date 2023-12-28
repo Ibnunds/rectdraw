@@ -32,7 +32,7 @@ export const SStoCode = () => {
     });
 
     try {
-      const resp = await fetch("http://127.0.0.1:4000/ask", {
+      const resp = await fetch("http://147.139.206.102/ask", {
         method: "POST",
         body: body,
         headers: {
@@ -68,7 +68,7 @@ export const SStoCode = () => {
       image: image,
     };
     try {
-      const res = await fetch("http://localhost:4000/uploadImage", {
+      const res = await fetch("http://147.139.206.102/uploadImage", {
         method: "POST",
         body: JSON.stringify(body),
         headers: {
